@@ -20,7 +20,6 @@ Este bloque se enfoca en la defensa proactiva del servidor a nivel de sistema op
 
 * **Laboratorio 4 (Lab 1 - Parte 2): Gestión de Parches Quirúrgicos y Hardening Activo:** Mapeo automatizado de vulnerabilidades mediante scripts avanzados de **Nmap (`--script vuln`)**, correlación bajo estándares internacionales **CVE (NVD/NIST)** y automatización de remediación autónoma mediante el módulo `unattended-upgrades` restringido a repositorios críticos de seguridad.
 * **Laboratorio 5 (Lab 2 - Parte 2): Implementación de HIDS/IPS Operacional con Fail2Ban:** Configuración de un Sistema de Prevención de Intrusos perimetral para aislar de forma automática a atacantes concurrentes, inyectando de manera dinámica reglas de bloqueo de tipo `REJECT` directas en el Firewall nativo del sistema (**IPTables/Netfilter**).
-* **Laboratorio 6 (Lab 3 - Parte 2): Análisis de Malware, Estructura de Memoria y RBAC:** Auditoría forense de persistencias maliciosas utilizando herramientas de detección de *rootkits* (**rkhunter/chkrootkit**), experimentación práctica con la aleatorización del espacio de memoria de procesos (**ASLR del Kernel**) y configuración de Control de Acceso Basado en Roles (**RBAC**) mediante el archivo `sudoers` bajo el Principio de Menor Privilegio.
 
 ## 🛠️ Stack Tecnológico Global Utilizado
 
