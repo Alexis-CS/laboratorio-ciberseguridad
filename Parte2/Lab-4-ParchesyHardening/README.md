@@ -67,18 +67,13 @@ Realizando un nuevo escaneo, podemos verificar que el servicio ssh se ha actuali
 
 Para evitar tener que parchar manualmente cada vulnerabilidad que aparezca en el futuro, configuraremos el sistema para que se defienda solo ante amenazas críticas. Primero se debe instalar el paquete de actualizaciones desatendidas.
 
-<img width="795" height="597" alt="imagen" src="https://github.com/user-attachments/assets/f5f3b6a0-92b1-4f33-a7e4-3fe683853ca7" />
+<img width="807" height="131" alt="Captura de pantalla 2026-05-19 021910" src="https://github.com/user-attachments/assets/6d26ec92-3c2e-49ad-8355-8b4de96c057f" />
 
-Abrimos el archivo de configuración principal (con el comando sudo nano /etc/apt/apt.conf.d/50unattended-upgrades) para editar las políticas de automatización.
+Este comando "sudo dpkg-reconfigure -plow unattended-upgrades" sirve para activar, desactivar o modificar las actualizaciones automáticas de seguridad en tu sistema Linux (Debian/Ubuntu).
 
-<img width="650" height="217" alt="imagen" src="https://github.com/user-attachments/assets/476b19d2-1531-46c3-a741-57f484a920b7" />
+<img width="797" height="600" alt="imagen" src="https://github.com/user-attachments/assets/564d3cd5-4816-4889-a9f8-5475c166bbd6" />
 
-Configuramos el archivo colocando // en la línea que se indica y guardando con CTRL + O y cerrando con CTRL + x. El motivo técnico por el cual se debe colocar el // (comentar/apagar) se divide en tres razones muy importantes:
-- Evitar la instalación de características nuevas e inestables.
-- Cumplir estrictamente con la política de "Solo Seguridad".
-- Mantener la Alta Disponibilidad (Gobernanza de TI).
-
-Al dejar activa solo la línea de -security, garantizamos que el servidor se mantenga blindado contra exploits explotables sin riesgo de sufrir caídas por actualizaciones de características comunes.
+Al ejecutarlo, el sistema abrirá un menú interactivo en la terminal que te preguntará si deseas que el servidor descargue e instale los parches de seguridad de forma automática y en segundo plano, sin que tú tengas que intervenir.
 
 # Conclusión
 
