@@ -4,7 +4,8 @@
 - Víctima: Ubuntu Server 18.04 (VM)
 - Atacante: Ubuntu Server 24.04 (desde WSL2)
 - NMAP
-- NVD (National Vulnerability Database de NIST)
+- Web NVD (National Vulnerability Database de NIST)
+- Unattended-Upgrades: Paquete de software para sistemas basados en Debian/Ubuntu instalado para automatizar la gobernanza de la seguridad del sistema.
 
 ## Descripción general
 - Actividad: Los alumnos reciben un informe de vulnerabilidades (simulado).
