@@ -1,4 +1,4 @@
-# Lab 4 — Practica de defensa activa
+# Lab 3 — Practica de defensa activa
 
 ## Tecnologías y herramientas utilizadas:
 - Víctima: Ubuntu Server 18.04 (VM)
