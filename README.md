@@ -22,11 +22,11 @@ Este bloque se enfoca en la defensa proactiva del servidor a nivel de sistema op
 
 ## 🛠️ Stack Tecnológico Global Utilizado
 
-| Capa Ofensiva (Ubuntu Server 24.04/WSL) | Capa Defensiva (Ubuntu Server 18.04/VirtualMachine - Ubuntu Server/Docker) | Protocolos y Estándares |
+| Capa Ofensiva (Ubuntu Server 24.04/WSL) | Capa Defensiva (Ubuntu Server 18.04) |
 | :--- | :--- | :--- |
 | 🦅 **Hydra v9.5** (Fuerza Bruta) | 🛡️ **Fail2Ban** (HIDS / IPS) | 🔑 **AES-256 / RSA-2048** |
-| 🔍 **Nmap** (Análisis de CVEs) | 🔥 **IPTables** (Netfilter Firewall) | 🔒 **TLS / HTTPS / SSH / VPN** |
-| 🫀 **Wireshark** (Sniffing de Red) | 📦 **APT / Dpkg** (Package Hardening) | 📑 **CVE (MITRE / NIST NVD)** |
-| 📁 **Wordlists / RockYou.txt** | 🧰 **OpenSSL / Rkhunter / Chkrootkit** | 🧠 **ASLR / RBAC / PAM** |
+| 🔍 **Nmap** (Análisis de CVEs) | 🔥 **IPTables** (Netfilter Firewall) | 🔒 **SSH** |
+| 📦 **APT / Dpkg** (Package Hardening) | 📑 **CVE (MITRE / NIST NVD)** |
+| 📁 **Wordlists / RockYou.txt** |
 
 ---
